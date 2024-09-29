@@ -1,13 +1,15 @@
 
 # Git Useful commands
 ---
-# Installing Git on Ubuntu
+## Installing Git on Ubuntu
     sudo apt install git
 
-# How to clone a repo
+## How to clone a repo
     git clone <git@github.com/someone/repo-name.git>
 
+------
 # Basic commands
+---
 ## Converting any folder to git repo
     git init .
 
@@ -46,6 +48,8 @@ To check the lore of git commit history
     git revert <first-7-hex-digits-of-commit>
 
 ## Pushing to a repo
+To push your changes to Github 
+
     git push 
 
 ## Generating a patch
@@ -54,8 +58,9 @@ To check the lore of git commit history
 
 ## Applying a patch
     git apply mygit_patch.patch
+    git add -A
 
 
-
+------
 # Advanced Commands
 
